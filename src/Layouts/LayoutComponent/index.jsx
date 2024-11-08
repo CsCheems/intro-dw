@@ -1,6 +1,7 @@
 import React from 'react';
 import {Col, Row} from 'antd';
-const LayoutComponent = (leftColSize, rightColSize, leftContent, rightContent) => {
+import './LayoutComponents.css';
+const LayoutComponent = ({leftColSize, rightColSize, leftContent, rightContent}) => {
     return (
         <div className='layout-container'>
             <Row>
